@@ -1,6 +1,6 @@
 CXX      ?= c++
-CXXFLAGS ?= -std=c++14 -Wall -Wextra -target arm64-apple-macos12.0
-LDFLAGS  ?= -framework CoreFoundation -framework IOKit -lc++
+CXXFLAGS ?= -std=c++14 -Wall -Wextra #-target arm64-apple-macos15.0
+LDFLAGS  ?= -framework CoreFoundation -framework IOKit #-lc++
 
 all: macvdmtool
 
